@@ -11,6 +11,7 @@
 		2E8649321F4A0C3900B082D8 /* ToViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8649311F4A0C3900B082D8 /* ToViewsTests.swift */; };
 		2E8649341F4A0C3900B082D8 /* ToViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8649261F4A0C3900B082D8 /* ToViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E86493F1F4A0E1000B082D8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86493E1F4A0E0900B082D8 /* GradientView.swift */; };
+		2E8649451F4A21D500B082D8 /* UILabel+DynamicSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8649441F4A21D500B082D8 /* UILabel+DynamicSizes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		2E8649311F4A0C3900B082D8 /* ToViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToViewsTests.swift; sourceTree = "<group>"; };
 		2E8649331F4A0C3900B082D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E86493E1F4A0E0900B082D8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2E8649441F4A21D500B082D8 /* UILabel+DynamicSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+DynamicSizes.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				2E86493E1F4A0E0900B082D8 /* GradientView.swift */,
+				2E8649441F4A21D500B082D8 /* UILabel+DynamicSizes.swift */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E86493F1F4A0E1000B082D8 /* GradientView.swift in Sources */,
+				2E8649451F4A21D500B082D8 /* UILabel+DynamicSizes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
