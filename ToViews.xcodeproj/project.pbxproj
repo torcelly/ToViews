@@ -10,6 +10,7 @@
 		2E86492D1F4A0C3900B082D8 /* ToViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8649231F4A0C3900B082D8 /* ToViews.framework */; };
 		2E8649321F4A0C3900B082D8 /* ToViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8649311F4A0C3900B082D8 /* ToViewsTests.swift */; };
 		2E8649341F4A0C3900B082D8 /* ToViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8649261F4A0C3900B082D8 /* ToViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E86493F1F4A0E1000B082D8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86493E1F4A0E0900B082D8 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		2E86492C1F4A0C3900B082D8 /* ToViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8649311F4A0C3900B082D8 /* ToViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToViewsTests.swift; sourceTree = "<group>"; };
 		2E8649331F4A0C3900B082D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E86493E1F4A0E0900B082D8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				2E8649261F4A0C3900B082D8 /* ToViews.h */,
+				2E86493D1F4A0E0900B082D8 /* Source */,
 				2E8649271F4A0C3900B082D8 /* Info.plist */,
 			);
 			path = ToViews;
@@ -85,6 +88,14 @@
 			);
 			path = ToViewsTests;
 			sourceTree = "<group>";
+		};
+		2E86493D1F4A0E0900B082D8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2E86493E1F4A0E0900B082D8 /* GradientView.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -194,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E86493F1F4A0E1000B082D8 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +386,7 @@
 		2E86493B1F4A0C3900B082D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VM7B3AWTR8;
 				INFOPLIST_FILE = ToViewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +400,7 @@
 		2E86493C1F4A0C3900B082D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VM7B3AWTR8;
 				INFOPLIST_FILE = ToViewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
