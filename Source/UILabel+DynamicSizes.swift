@@ -11,16 +11,16 @@ import UIKit
 public extension UILabel {
     
     public func widthNeeded() -> CGFloat {
-        let attr : [NSAttributedStringKey: Any] = [NSAttributedStringKey.font : self.font]
+        let attr : [NSAttributedString.Key: Any] = [NSAttributedString.Key.font : self.font]
         return self.widthNeeded(withAttributes: attr)
     }
     
     public func heightNeeded() -> CGFloat {
-        let attr : [NSAttributedStringKey: Any] = [NSAttributedStringKey.font : self.font]
+        let attr : [NSAttributedString.Key: Any] = [NSAttributedString.Key.font : self.font]
         return self.heightNeeded(withAttributes: attr)
     }
     
-    public func widthNeeded(withAttributes attr: [NSAttributedStringKey: Any]?) -> CGFloat {
+    public func widthNeeded(withAttributes attr: [NSAttributedString.Key: Any]?) -> CGFloat {
         let constraint : CGSize = CGSize.init(width: 200000.0, height: self.frame.size.height);
         let context : NSStringDrawingContext = NSStringDrawingContext()
         
@@ -32,7 +32,7 @@ public extension UILabel {
         return 0
     }
     
-    public func heightNeeded(withAttributes attr: [NSAttributedStringKey: Any]?) -> CGFloat {
+    public func heightNeeded(withAttributes attr: [NSAttributedString.Key: Any]?) -> CGFloat {
         let constraint : CGSize = CGSize.init(width: self.frame.size.width, height: 200000.0)
         let context : NSStringDrawingContext = NSStringDrawingContext()
         
